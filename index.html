@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ciphers</title>
 </head>
 <body>
@@ -9,7 +10,7 @@
     
     <textarea id="plain_text" name="p" class="textarea1"></textarea>
     
-    <p>shift : <select id="key" name="key" size="1">
+    <select id class="shift_select" select id="key" select id="key" size="1">
       <option value="0">0</option> 
       <option value="1">1</option> 
       <option value="2">2</option> 
@@ -36,13 +37,13 @@
       <option value="23">23</option> 
       <option value="24">24</option> 
       <option value="25">25</option> 
-      </select></p> 
+      </select>
 
-    
     <br>
     <br>
 
-    <label for="methods"><strong>Select your cipher or encoding method</strong></label>
+    <strong><div class="text1">Select your cipher or encoding method </div></strong>
+    <p class="shift "><strong>Shift</strong></p>
     <br>
     <br>
     <select name="methods" id="methods" class="methods">

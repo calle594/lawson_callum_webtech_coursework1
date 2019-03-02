@@ -1,6 +1,8 @@
 .button1{
   padding-left: 100px;
-  background-color: black;
+  background-color: #911511;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -8,12 +10,15 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 25px 500px;
   cursor: pointer;
 }
 
 .button2{
-  background-color: black;
+  position: absolute;
+  background-color: #911511;
+  -webkit-border-radius: 20px;  
+  -moz-border-radius: 20px;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -21,45 +26,49 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 25px -490px;
   cursor: pointer;
 }
 
 .methods{
+   position: absolute;
+   margin-top: 37px;
+   margin-left: 587px;
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
    color: white;
-   background-color: black;
+   background-color: #911511;
 }
 
 .textarea1{
     position: relative;
     margin-top: 5px;
+    margin-left: 450px;
     border:1px solid black;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px #911511;
     resize: none;
     height: 200px;
     width:30%
 }
-
 
 .textarea2{
     position: relative;
-    margin-top: 30px;
+    margin-bottom: 1px;
+    margin-left: 146px;
     border:1px solid black;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px #911511;
     resize: none;
     height: 200px;
     width:30%
 }
 
-
 .textarea3{
     position: relative;
-    margin-left: 5px;
+    margin-top: 5px;
+    margin-left: 190px;
     border:1px solid black;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px #911511;
     resize: none;
     height: 200px;
     width:30%
@@ -67,23 +76,52 @@
 
 .ciphertext{
     position: absolute;
-    padding-left :150px;
-    padding-top: 20px;
+    padding-left :280px;
+    padding-top: 1px;
 }
 
 .decodedtext{
     position: absolute;
-    padding-left :570px;
-    padding-top: 20px;
+    padding-left :875px;
+    padding-top: 2px;
 }
 
 .plaintext{
     position: absolute;
     margin-top: -35px;
-    padding-left: 150px;
+    padding-left: 615px;
 }
 
-.text_encoded_select{
+.shift_select{
+   position: absolute;
+   margin-top: 272px;
+   margin-left: -370px;
+   background: transparent;
+   -webkit-border-radius: 20px;  
+   -moz-border-radius: 20px;
+   border: none;
+   font-size: 14px;
+   height: 27px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+   background-color: #911511;
+}
+
+.text1{
     position: absolute;
-    padding-bottom: 100px;
+    margin-left: 500px;
+}
+    
+.shift{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 3px;
+}
+
+.a{
+    position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%; 
 }
